@@ -48,10 +48,10 @@ const HeroSection = () => {
           </div>
           
           <div className={`relative ${isLoaded ? 'slide-in-right' : 'opacity-0'}`}>
-            <div className="absolute inset-0 -z-10 bg-pink-light rounded-2xl -rotate-3 scale-105 transform-gpu"></div>
-            <div className="image-container relative rounded-2xl overflow-hidden bg-[#e5d0ff] aspect-[9/11] transition-all duration-500 hover:shadow-xl">
+            <div className="absolute inset-0 -z-10 bg-[#FFD6E7] rounded-3xl scale-105 transform-gpu"></div>
+            <div className="image-container relative rounded-3xl overflow-hidden bg-[#b8b5e9] aspect-[4/5] transition-all duration-500 hover:shadow-xl">
               <img
-                src="/lovable-uploads/74512d79-40f0-45b7-8cec-8dbcc5cf5b2d.png"
+                src="/lovable-uploads/3c1df1a9-49e8-4423-8240-c3f7bcc48097.png"
                 alt="Portrait of a woman with beautiful makeup"
                 className="h-full w-full object-cover object-center image-hover-zoom"
                 loading="lazy"
