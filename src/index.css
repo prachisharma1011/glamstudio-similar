@@ -119,35 +119,6 @@
   .image-container:hover .image-hover-zoom {
     transform: scale(1.05);
   }
-
-  /* Parallax Effects */
-  .parallax-container {
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 1px;
-  }
-  
-  .parallax-bg {
-    position: relative;
-    transform-style: preserve-3d;
-  }
-  
-  .parallax-slow {
-    transform: translateZ(-0.5px) scale(1.5);
-  }
-  
-  .parallax-medium {
-    transform: translateZ(-0.25px) scale(1.25);
-  }
-  
-  .parallax-fast {
-    transform: translateZ(0px) scale(1);
-  }
-  
-  .parallax-text {
-    position: relative;
-    transform: translateZ(0);
-  }
 }
 
 @keyframes fadeIn {
