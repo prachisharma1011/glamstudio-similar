@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
+import VideoReviewsSection from "@/components/VideoReviewsSection";
 
 const Index = () => {
   // Scroll to top on page load
@@ -15,6 +16,7 @@ const Index = () => {
       <NavBar />
       <HeroSection />
       <ServicesSection />
+      <VideoReviewsSection />
     </div>
   );
 };
