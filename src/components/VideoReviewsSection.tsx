@@ -44,9 +44,9 @@ const VideoReviewsSection = () => {
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-pink-50 to-white">
+    <section className="py-24 bg-gradient-to-b from-pink-50 to-white parallax-bg parallax-slow">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 parallax-text">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Customer <span className="text-primary">Stories</span>
           </h2>
@@ -55,7 +55,7 @@ const VideoReviewsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 parallax-fast">
           {videoReviews.map((review) => (
             <div 
               key={review.id} 

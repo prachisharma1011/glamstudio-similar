@@ -26,9 +26,9 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-pink-50">
+    <section className="py-24 bg-gradient-to-b from-white to-pink-50 parallax-bg parallax-medium">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 parallax-text">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Our Beauty <span className="text-primary">Services</span>
           </h2>
@@ -37,7 +37,7 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 parallax-fast">
           {services.map((service, index) => (
             <div
               key={index}
