@@ -98,6 +98,27 @@
   .slide-in-right {
     animation: slideInRight 0.8s ease-out forwards;
   }
+  
+  .image-container {
+    overflow: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .image-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-container:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .image-hover-zoom {
+    transition: transform 0.7s ease;
+  }
+  
+  .image-container:hover .image-hover-zoom {
+    transform: scale(1.05);
+  }
 }
 
 @keyframes fadeIn {

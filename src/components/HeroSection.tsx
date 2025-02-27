@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
   
   return (
-    <section className="relative min-h-screen flex items-center py-16 overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-32 pb-16 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="hero-container grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className={`space-y-6 ${isLoaded ? 'slide-in-left' : 'opacity-0'}`}>
@@ -48,15 +48,16 @@ const HeroSection = () => {
           </div>
           
           <div className={`relative ${isLoaded ? 'slide-in-right' : 'opacity-0'}`}>
-            <div className="absolute inset-0 -z-10 bg-pink-light rounded-2xl -rotate-2 scale-105 transform-gpu"></div>
-            <div className="relative rounded-2xl overflow-hidden bg-[#e5d0ff] aspect-[9/11]">
+            <div className="absolute inset-0 -z-10 bg-pink-light rounded-2xl -rotate-3 scale-105 transform-gpu"></div>
+            <div className="image-container relative rounded-2xl overflow-hidden bg-[#e5d0ff] aspect-[9/11] transition-all duration-500 hover:shadow-xl">
               <img
                 src="/lovable-uploads/74512d79-40f0-45b7-8cec-8dbcc5cf5b2d.png"
                 alt="Portrait of a woman with beautiful makeup"
-                className="h-full w-full object-cover object-center"
+                className="h-full w-full object-cover object-center image-hover-zoom"
                 loading="lazy"
                 onLoad={() => setIsLoaded(true)}
               />
+              <div className="image-overlay absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 transition-opacity duration-300"></div>
             </div>
           </div>
         </div>
