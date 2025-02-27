@@ -4,6 +4,8 @@ import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import VideoReviewsSection from "@/components/VideoReviewsSection";
+import BookingCTA from "@/components/BookingCTA";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   // Scroll to top on page load
@@ -17,6 +19,8 @@ const Index = () => {
       <HeroSection />
       <ServicesSection />
       <VideoReviewsSection />
+      <BookingCTA />
+      <Footer />
     </div>
   );
 };
