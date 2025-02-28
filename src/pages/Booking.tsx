@@ -233,7 +233,7 @@ const Booking = () => {
                   </div>
                 </div>
                 <p className="text-gray-500 mt-8">
-                  Have questions? <a href="/contact" className="text-primary font-medium">Contact us</a>
+                  Have questions? <a href="https://instagram.com/glamstudio" target="_blank" rel="noopener noreferrer" className="text-primary font-medium">Contact us on Instagram</a>
                 </p>
               </div>
             </div>
