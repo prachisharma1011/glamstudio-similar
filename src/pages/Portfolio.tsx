@@ -81,7 +81,7 @@ const Portfolio = () => {
                 key={client.id}
                 className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-80 overflow-hidden">
                   <img 
                     src={client.image} 
                     alt={client.name} 
@@ -114,8 +114,7 @@ const Portfolio = () => {
             <div className="bg-gray-50 rounded-xl p-8 max-w-3xl mx-auto">
               <h2 className="text-2xl font-semibold mb-4">Want to Book Our Services?</h2>
               <p className="text-gray-600 mb-6">
-                Yes, you can provide your own images for a customized website. Contact us to discuss your specific needs
-                and how GlamStudio can help you look your best for your special occasion.
+                Contact us to discuss your specific needs and how GlamStudio can help you look your best for your special occasion.
               </p>
               <a 
                 href="/booking" 
