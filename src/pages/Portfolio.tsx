@@ -49,7 +49,7 @@ const clientsData = [
   {
     id: 6,
     name: "Wedding Packages",
-    image: "https://images.unsplash.com/photo-1609241728358-e7ef22553f8d?q=80&w=500",
+    image: "/lovable-uploads/7ec810cf-2026-49e4-a821-00290b38dcb9.png",
     description: "Comprehensive makeup and hair services for the bride and her wedding party.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Bridal Services"
