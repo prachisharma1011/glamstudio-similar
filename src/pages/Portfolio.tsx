@@ -41,7 +41,7 @@ const clientsData = [
   {
     id: 5,
     name: "Editorial Makeup",
-    image: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=500",
+    image: "/lovable-uploads/e5cb12b8-4809-45b7-beab-251a01aecdbf.png",
     description: "Creative makeup artistry for fashion magazines, lookbooks, and commercial campaigns.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Fashion Industry"
