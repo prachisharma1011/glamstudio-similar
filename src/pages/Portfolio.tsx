@@ -9,48 +9,48 @@ const clientsData = [
   {
     id: 1,
     name: "Vogue Magazine",
-    image: "https://images.unsplash.com/photo-1515688594390-b649af70d282?q=80&w=500",
-    description: "Collaborated on multiple high-fashion photoshoots for their seasonal catalogs.",
+    image: "https://images.unsplash.com/photo-1604842585295-79c632eca0e7?q=80&w=500",
+    description: "Collaborated on multiple high-fashion photoshoots featuring traditional Indian bridal makeup.",
     instagramUrl: "https://instagram.com/voguemagazine",
     category: "Fashion Magazine"
   },
   {
     id: 2,
     name: "Celebrity Weddings",
-    image: "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?q=80&w=500",
-    description: "Provided makeup services for several A-list celebrity weddings in the last year.",
+    image: "https://images.unsplash.com/photo-1610782466215-ebda61a7546e?q=80&w=500",
+    description: "Provided makeup services for several A-list Indian celebrity weddings in the last year.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Celebrity Events"
   },
   {
     id: 3,
     name: "Fashion Week",
-    image: "https://images.unsplash.com/photo-1457972851104-4fd469440bf9?q=80&w=500",
-    description: "Official makeup partner for the Spring/Summer runway shows at Fashion Week.",
+    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=500",
+    description: "Official makeup partner for the Spring/Summer Indian bridal runway shows at Fashion Week.",
     instagramUrl: "https://instagram.com/fashionweek",
     category: "Runway Events"
   },
   {
     id: 4,
     name: "Luxury Hotels",
-    image: "https://images.unsplash.com/photo-1614433550313-631e259d67ea?q=80&w=500",
-    description: "Exclusive beauty services provider for premier luxury hotels and their VIP guests.",
+    image: "https://images.unsplash.com/photo-1628921919890-8d0839d99582?q=80&w=500",
+    description: "Exclusive bridal makeup services for destination Indian weddings at premier luxury hotels.",
     instagramUrl: "https://instagram.com/luxuryhotels",
     category: "Hospitality"
   },
   {
     id: 5,
     name: "Red Carpet Events",
-    image: "https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?q=80&w=500",
-    description: "Trusted by celebrities for major award shows and premieres.",
+    image: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=500",
+    description: "Trusted by Bollywood celebrities for major award shows and film premieres.",
     instagramUrl: "https://instagram.com/redcarpetevents",
     category: "Entertainment Industry"
   },
   {
     id: 6,
     name: "Bridal Magazines",
-    image: "https://images.unsplash.com/photo-1579910072776-35e9fb82e1a4?q=80&w=500",
-    description: "Featured in leading bridal publications for innovative wedding makeup artistry.",
+    image: "https://images.unsplash.com/photo-1609241728358-e7ef22553f8d?q=80&w=500",
+    description: "Featured in leading bridal publications for innovative Indian wedding makeup artistry.",
     instagramUrl: "https://instagram.com/bridalmagazine",
     category: "Bridal Publications"
   }
@@ -71,7 +71,7 @@ const Portfolio = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Portfolio</h1>
             <p className="text-gray-600 max-w-2xl mx-auto">
               GlamStudio has had the privilege of working with some of the most prestigious brands and clients in the industry. 
-              Below are some of our most notable collaborations.
+              Below are some of our most notable collaborations featuring Indian bridal makeup.
             </p>
           </div>
           
