@@ -9,7 +9,7 @@ const clientsData = [
   {
     id: 1,
     name: "Bridal Makeup",
-    image: "https://images.unsplash.com/photo-1604842585295-79c632eca0e7?q=80&w=500",
+    image: "/lovable-uploads/bb0006b2-016d-4244-8329-5d90627aea3a.png",
     description: "Specialized in traditional and contemporary Indian bridal makeup with meticulous attention to detail.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Wedding Services"
@@ -17,7 +17,7 @@ const clientsData = [
   {
     id: 2,
     name: "Celebrity Makeup",
-    image: "https://images.unsplash.com/photo-1610782466215-ebda61a7546e?q=80&w=500",
+    image: "/lovable-uploads/b79690cb-1d3d-4f42-9ca0-4eb781c49032.png",
     description: "Trusted by Bollywood celebrities and influencers for red carpet events and photoshoots.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Entertainment Industry"
@@ -33,7 +33,7 @@ const clientsData = [
   {
     id: 4,
     name: "Hair Styling",
-    image: "https://images.unsplash.com/photo-1628921919890-8d0839d99582?q=80&w=500",
+    image: "/lovable-uploads/daca9489-543b-4828-8fa4-91707720b813.png",
     description: "Expert hair styling services from elegant updos to contemporary cuts and treatments.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Hair Services"
