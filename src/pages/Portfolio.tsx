@@ -8,51 +8,51 @@ import Footer from "@/components/Footer";
 const clientsData = [
   {
     id: 1,
-    name: "Vogue Magazine",
+    name: "Bridal Makeup",
     image: "https://images.unsplash.com/photo-1604842585295-79c632eca0e7?q=80&w=500",
-    description: "Collaborated on multiple high-fashion photoshoots featuring traditional Indian bridal makeup.",
-    instagramUrl: "https://instagram.com/voguemagazine",
-    category: "Fashion Magazine"
+    description: "Specialized in traditional and contemporary Indian bridal makeup with meticulous attention to detail.",
+    instagramUrl: "https://instagram.com/glamstudio",
+    category: "Wedding Services"
   },
   {
     id: 2,
-    name: "Celebrity Weddings",
+    name: "Celebrity Makeup",
     image: "https://images.unsplash.com/photo-1610782466215-ebda61a7546e?q=80&w=500",
-    description: "Provided makeup services for several A-list Indian celebrity weddings in the last year.",
+    description: "Trusted by Bollywood celebrities and influencers for red carpet events and photoshoots.",
     instagramUrl: "https://instagram.com/glamstudio",
-    category: "Celebrity Events"
-  },
-  {
-    id: 3,
-    name: "Fashion Week",
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=500",
-    description: "Official makeup partner for the Spring/Summer Indian bridal runway shows at Fashion Week.",
-    instagramUrl: "https://instagram.com/fashionweek",
-    category: "Runway Events"
-  },
-  {
-    id: 4,
-    name: "Luxury Hotels",
-    image: "https://images.unsplash.com/photo-1628921919890-8d0839d99582?q=80&w=500",
-    description: "Exclusive bridal makeup services for destination Indian weddings at premier luxury hotels.",
-    instagramUrl: "https://instagram.com/luxuryhotels",
-    category: "Hospitality"
-  },
-  {
-    id: 5,
-    name: "Red Carpet Events",
-    image: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=500",
-    description: "Trusted by Bollywood celebrities for major award shows and film premieres.",
-    instagramUrl: "https://instagram.com/redcarpetevents",
     category: "Entertainment Industry"
   },
   {
+    id: 3,
+    name: "Party Makeup",
+    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=500",
+    description: "Glamorous looks for all your special occasions, from cocktail parties to festival celebrations.",
+    instagramUrl: "https://instagram.com/glamstudio",
+    category: "Special Events"
+  },
+  {
+    id: 4,
+    name: "Hair Styling",
+    image: "https://images.unsplash.com/photo-1628921919890-8d0839d99582?q=80&w=500",
+    description: "Expert hair styling services from elegant updos to contemporary cuts and treatments.",
+    instagramUrl: "https://instagram.com/glamstudio",
+    category: "Hair Services"
+  },
+  {
+    id: 5,
+    name: "Editorial Makeup",
+    image: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=500",
+    description: "Creative makeup artistry for fashion magazines, lookbooks, and commercial campaigns.",
+    instagramUrl: "https://instagram.com/glamstudio",
+    category: "Fashion Industry"
+  },
+  {
     id: 6,
-    name: "Bridal Magazines",
+    name: "Wedding Packages",
     image: "https://images.unsplash.com/photo-1609241728358-e7ef22553f8d?q=80&w=500",
-    description: "Featured in leading bridal publications for innovative Indian wedding makeup artistry.",
-    instagramUrl: "https://instagram.com/bridalmagazine",
-    category: "Bridal Publications"
+    description: "Comprehensive makeup and hair services for the bride and her wedding party.",
+    instagramUrl: "https://instagram.com/glamstudio",
+    category: "Bridal Services"
   }
 ];
 
@@ -68,10 +68,10 @@ const Portfolio = () => {
       <main className="flex-grow pt-24 pb-16">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-12">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Portfolio</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h1>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              GlamStudio has had the privilege of working with some of the most prestigious brands and clients in the industry. 
-              Below are some of our most notable collaborations featuring Indian bridal makeup.
+              GlamStudio offers a wide range of professional makeup and hair styling services to bring out your natural beauty.
+              Explore our portfolio to see examples of our work.
             </p>
           </div>
           
@@ -99,7 +99,7 @@ const Portfolio = () => {
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-primary transition-colors"
-                      aria-label={`Visit ${client.name}'s Instagram`}
+                      aria-label={`Visit our Instagram for ${client.name} examples`}
                     >
                       <InstagramIcon className="w-6 h-6" />
                     </a>
@@ -112,16 +112,16 @@ const Portfolio = () => {
           
           <div className="mt-16 text-center">
             <div className="bg-gray-50 rounded-xl p-8 max-w-3xl mx-auto">
-              <h2 className="text-2xl font-semibold mb-4">Want to Work With Us?</h2>
+              <h2 className="text-2xl font-semibold mb-4">Want to Book Our Services?</h2>
               <p className="text-gray-600 mb-6">
-                We're always looking to collaborate with new brands and clients. 
-                Contact us to discuss how GlamStudio can elevate your next project.
+                Yes, you can provide your own images for a customized website. Contact us to discuss your specific needs
+                and how GlamStudio can help you look your best for your special occasion.
               </p>
               <a 
-                href="/contact" 
+                href="/booking" 
                 className="inline-block bg-primary text-white rounded-full px-8 py-3 font-medium hover:bg-primary/90 transition-colors"
               >
-                Get in Touch
+                Book Now
               </a>
             </div>
           </div>
