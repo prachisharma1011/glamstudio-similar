@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -71,6 +71,16 @@ const NavBar = () => {
               </Link>
             ))}
             
+            <a 
+              href="https://instagram.com/glamstudio" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-primary transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram size={20} />
+            </a>
+            
             <Link 
               to="/booking" 
               className="ml-2 bg-primary text-white rounded-full px-5 py-2 text-sm font-medium transition-all hover:bg-primary/90"
@@ -106,6 +116,17 @@ const NavBar = () => {
                 {link.name}
               </Link>
             ))}
+            
+            <a 
+              href="https://instagram.com/glamstudio" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center text-lg font-medium text-gray-800 hover:text-primary py-2 border-b border-gray-100"
+              onClick={() => setIsOpen(false)}
+            >
+              <Instagram size={20} className="mr-2" />
+              Instagram
+            </a>
             
             <Link 
               to="/booking" 
