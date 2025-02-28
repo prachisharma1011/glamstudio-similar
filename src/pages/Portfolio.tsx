@@ -25,7 +25,7 @@ const clientsData = [
   {
     id: 3,
     name: "Party Makeup",
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?q=80&w=500",
+    image: "/lovable-uploads/f74b5818-fe6c-408a-bbe2-90a8d0c9aecf.png",
     description: "Glamorous looks for all your special occasions, from cocktail parties to festival celebrations.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Special Events"
