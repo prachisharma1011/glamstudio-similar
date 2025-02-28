@@ -9,7 +9,7 @@ const clientsData = [
   {
     id: 1,
     name: "Vogue Magazine",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=500",
+    image: "https://images.unsplash.com/photo-1515688594390-b649af70d282?q=80&w=500",
     description: "Collaborated on multiple high-fashion photoshoots for their seasonal catalogs.",
     instagramUrl: "https://instagram.com/voguemagazine",
     category: "Fashion Magazine"
@@ -17,7 +17,7 @@ const clientsData = [
   {
     id: 2,
     name: "Celebrity Weddings",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=500",
+    image: "https://images.unsplash.com/photo-1526379879527-8559ecfcaec0?q=80&w=500",
     description: "Provided makeup services for several A-list celebrity weddings in the last year.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Celebrity Events"
@@ -25,7 +25,7 @@ const clientsData = [
   {
     id: 3,
     name: "Fashion Week",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=500",
+    image: "https://images.unsplash.com/photo-1457972851104-4fd469440bf9?q=80&w=500",
     description: "Official makeup partner for the Spring/Summer runway shows at Fashion Week.",
     instagramUrl: "https://instagram.com/fashionweek",
     category: "Runway Events"
@@ -33,7 +33,7 @@ const clientsData = [
   {
     id: 4,
     name: "Luxury Hotels",
-    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?q=80&w=500",
+    image: "https://images.unsplash.com/photo-1614433550313-631e259d67ea?q=80&w=500",
     description: "Exclusive beauty services provider for premier luxury hotels and their VIP guests.",
     instagramUrl: "https://instagram.com/luxuryhotels",
     category: "Hospitality"
@@ -41,7 +41,7 @@ const clientsData = [
   {
     id: 5,
     name: "Red Carpet Events",
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=500",
+    image: "https://images.unsplash.com/photo-1588516903720-8ceb67f9ef84?q=80&w=500",
     description: "Trusted by celebrities for major award shows and premieres.",
     instagramUrl: "https://instagram.com/redcarpetevents",
     category: "Entertainment Industry"
@@ -49,7 +49,7 @@ const clientsData = [
   {
     id: 6,
     name: "Bridal Magazines",
-    image: "https://images.unsplash.com/photo-1557214099-7a87cbbfe81f?q=80&w=500",
+    image: "https://images.unsplash.com/photo-1579910072776-35e9fb82e1a4?q=80&w=500",
     description: "Featured in leading bridal publications for innovative wedding makeup artistry.",
     instagramUrl: "https://instagram.com/bridalmagazine",
     category: "Bridal Publications"
