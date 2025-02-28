@@ -17,7 +17,7 @@ const clientsData = [
   {
     id: 2,
     name: "Celebrity Makeup",
-    image: "/lovable-uploads/b79690cb-1d3d-4f42-9ca0-4eb781c49032.png",
+    image: "/lovable-uploads/cd62e089-15d0-4858-bb9c-87196a45a04e.png",
     description: "Trusted by Bollywood celebrities and influencers for red carpet events and photoshoots.",
     instagramUrl: "https://instagram.com/glamstudio",
     category: "Entertainment Industry"
