@@ -81,11 +81,11 @@ const Portfolio = () => {
                 key={client.id}
                 className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="relative overflow-hidden aspect-video">
+                <div className="relative h-64 overflow-hidden">
                   <img 
                     src={client.image} 
                     alt={client.name} 
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                    className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <div className="p-6">
