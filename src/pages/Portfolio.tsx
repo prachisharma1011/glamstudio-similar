@@ -76,7 +76,7 @@ const Portfolio = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {clientsData.map((client) => (
+            {clientsData.map((client, index) => (
               <div 
                 key={client.id}
                 className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
@@ -86,6 +86,10 @@ const Portfolio = () => {
                     src={client.image} 
                     alt={client.name} 
                     className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
+                    loading={index < 3 ? "eager" : "lazy"}
+                    fetchPriority={index === 0 ? "high" : "auto"}
+                    width="400"
+                    height="480"
                   />
                 </div>
                 <div className="p-6">
