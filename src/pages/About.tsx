@@ -3,8 +3,22 @@ import { ArrowRight, Users, Star, Award } from "lucide-react";
 import { Link } from "react-router-dom";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import { useEffect, useState } from "react";
 
 const About = () => {
+  const [count, setCount] = useState(0);
+  const targetCount = 10;
+  
+  useEffect(() => {
+    if (count < targetCount) {
+      const timer = setTimeout(() => {
+        setCount(prev => Math.min(prev + 1, targetCount));
+      }, 300); // Count up every 300ms
+      
+      return () => clearTimeout(timer);
+    }
+  }, [count]);
+
   return (
     <>
       <NavBar />
@@ -50,7 +64,10 @@ const About = () => {
                     className="rounded-lg shadow-lg object-cover w-full h-[500px]"
                   />
                   <div className="absolute -bottom-8 -left-8 bg-primary text-white p-6 rounded-lg hidden md:block">
-                    <p className="text-4xl font-bold">10+</p>
+                    <div className="flex items-end">
+                      <span className="text-4xl font-bold transition-all duration-300">{count}</span>
+                      <span className="text-4xl font-bold">+</span>
+                    </div>
                     <p className="text-sm uppercase tracking-wider">Years of Experience</p>
                   </div>
                 </div>
