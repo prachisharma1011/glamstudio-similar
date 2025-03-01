@@ -13,7 +13,7 @@ const About = () => {
     if (count < targetCount) {
       const timer = setTimeout(() => {
         setCount(prev => Math.min(prev + 1, targetCount));
-      }, 300); // Count up every 300ms
+      }, 100); // Count up every 100ms instead of 300ms for faster animation
       
       return () => clearTimeout(timer);
     }
