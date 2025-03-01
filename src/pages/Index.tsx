@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
+import StorySection from "@/components/StorySection";
 import ServicesSection from "@/components/ServicesSection";
 import VideoReviewsSection from "@/components/VideoReviewsSection";
 import BookingCTA from "@/components/BookingCTA";
@@ -17,6 +18,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <NavBar />
       <HeroSection />
+      <StorySection />
       <ServicesSection />
       <VideoReviewsSection />
       <BookingCTA />
