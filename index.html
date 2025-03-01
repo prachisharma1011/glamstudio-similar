@@ -8,6 +8,19 @@
     <meta name="description" content="Lovable Generated Project" />
     <meta name="author" content="Lovable" />
     <meta property="og:image" content="/og-image.png" />
+    <style>
+      /* This prevents any dynamically injected badges */
+      #lovable-badge, 
+      [id*="lovable"], 
+      [class*="lovable"],
+      [id*="gpt-engineer"],
+      [class*="gpt-engineer"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
   </head>
 
   <body>
