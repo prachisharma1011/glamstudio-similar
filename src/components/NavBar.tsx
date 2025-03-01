@@ -14,7 +14,7 @@ const NavBar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Portfolio", path: "/portfolio" },
-    { name: "About", path: "/#our-story" },
+    { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
   
@@ -39,22 +39,6 @@ const NavBar = () => {
     };
   }, [isOpen, isMobile]);
   
-  const handleNavLinkClick = (path: string) => {
-    if (path.startsWith('/#')) {
-      // For anchor links, close mobile menu
-      setIsOpen(false);
-      
-      // Get the element ID from the path
-      const id = path.split('#')[1];
-      const element = document.getElementById(id);
-      
-      if (element) {
-        // Scroll to the element with smooth behavior
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  };
-  
   return (
     <header 
       className={cn(
@@ -76,10 +60,9 @@ const NavBar = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                onClick={() => handleNavLinkClick(link.path)}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-primary relative py-2",
-                  (location.pathname === link.path || (location.pathname === "/" && link.path === "/#our-story"))
+                  location.pathname === link.path 
                     ? "text-primary after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary" 
                     : "text-gray-700"
                 )}
@@ -114,13 +97,11 @@ const NavBar = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                onClick={() => handleNavLinkClick(link.path)}
                 className={cn(
                   "text-lg font-medium transition-colors hover:text-primary py-2 border-b border-gray-100",
-                  (location.pathname === link.path || (location.pathname === "/" && link.path === "/#our-story"))
-                    ? "text-primary" 
-                    : "text-gray-800"
+                  location.pathname === link.path ? "text-primary" : "text-gray-800"
                 )}
+                onClick={() => setIsOpen(false)}
               >
                 {link.name}
               </Link>
