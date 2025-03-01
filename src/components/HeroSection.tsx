@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
@@ -8,11 +7,7 @@ const HeroSection = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoaded(true);
-    }, 100);
-    
-    return () => clearTimeout(timer);
+    setIsLoaded(true);
   }, []);
   
   return (
@@ -54,8 +49,8 @@ const HeroSection = () => {
                 src="/lovable-uploads/3c1df1a9-49e8-4423-8240-c3f7bcc48097.png"
                 alt="Portrait of a woman with beautiful makeup"
                 className="h-full w-full object-cover object-center image-hover-zoom"
-                loading="lazy"
-                onLoad={() => setIsLoaded(true)}
+                loading="eager" 
+                fetchPriority="high"
               />
               <div className="image-overlay absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 transition-opacity duration-300"></div>
             </div>
